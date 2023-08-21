@@ -1,12 +1,15 @@
 
 import './App.css';
+import AllRoutes from "./routes/AllRoutes.js"
+
 
 function App() {
   return (
     <div className="App">
       <header>header</header>
-      <h1>hi</h1>
+      <AllRoutes/>
       <footer>footer</footer>
+      
     </div>
   );
 }
