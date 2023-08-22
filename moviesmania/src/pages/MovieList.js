@@ -1,15 +1,11 @@
 import React from 'react'
 
-const MovieList = () => {
+export const MovieList = () => {
   return (
-    <main>
-      <section>
-        <div className="text-2xl">
-          MovieList
-        </div>
-      </section>
+    <main>      
+      MovieList      
     </main>
   )
 }
 
-export default MovieList
+

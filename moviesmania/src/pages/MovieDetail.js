@@ -1,6 +1,6 @@
 
 
-const MovieDetail = () => {
+export const MovieDetail = () => {
   return (
     <main>
       MovieDetail
@@ -8,4 +8,4 @@ const MovieDetail = () => {
   )
 }
 
-export default MovieDetail
+

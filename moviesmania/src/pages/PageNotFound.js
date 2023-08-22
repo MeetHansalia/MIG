@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PageNotFound = () => {
+export const PageNotFound = () => {
   return (
     <main>
-      PageNotFound
+      meet
     </main>
   )
 }
 
-export default PageNotFound
+
