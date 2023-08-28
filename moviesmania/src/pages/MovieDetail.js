@@ -1,10 +1,12 @@
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 import Photo from '../assets/Photo.jpg'
+import useTitle from "../hooks/useTitle"
 
 export const MovieDetail = () => {
   const params = useParams()
   const [movie, setMovie] = useState({})
+  const pageTitle = useTitle(movie.title)
   const image = movie.poster_path ?  `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : Photo ;
   
 
@@ -18,6 +20,7 @@ export const MovieDetail = () => {
     fetchMovies()
   },[params])
 
+  
 
   return (
     <main>
